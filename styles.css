@@ -29,7 +29,7 @@ body {
 
 .logo {
     margin-left: 10px;
-    font-weight: 600;
+    font-weight: 800;
 }
 
 a {
@@ -55,6 +55,7 @@ a:hover::after {
 .navbar {
     display: flex;
     margin-right: 10px;
+    font-weight: 800;
 }
 
 .container {
@@ -77,13 +78,13 @@ a:hover::after {
 
 h2 {
     font-family: 'Hanken Grotesk', sans-serif;
-    font-size: 1.5em;
-    font-weight: 200;
+    font-size: 1em;
+    font-weight: 100;
 }
 
 .container-header h1 {
     font-size: 2rem;
-    font-weight: 600;
+    font-weight: 800;
     line-height: 0.5;
 }
 
@@ -175,7 +176,6 @@ footer {
     padding: 20px;
     font-size: 0.9em;
     background-color: #8CC2F3;
-
     margin: 0;
     padding: 0;
 }
@@ -186,6 +186,7 @@ footer {
     justify-content: space-around;
     align-items: center;
     width: 100%;
+    font-family: "Inter";
 }
 
 
