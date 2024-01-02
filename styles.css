@@ -11,7 +11,6 @@ body {
     background-color: #eeeeee;
     margin: 0;
     padding: 0;
-    font-family: 'Hanken Grotesk', sans-serif;
     width: 100vw;
 }
 
@@ -85,19 +84,19 @@ a:hover::after {
     width: 100%;
     justify-content: right;
     align-items: flex-end;
-    font-family: "HK Grotesk";
     padding: 0.5em;
     font-size: 1em;
     letter-spacing: 0.1em;
     margin: 0;
     padding: 0;
+    font-family: "DM Mono"
 }
 
 h2 {
-    font-family: 'Hanken Grotesk', sans-serif;
     font-size: 1em;
     font-weight: 100;
     margin: 0;
+    font-family: "DM Mono"
 }
 
 .container-header h1 {
@@ -111,6 +110,7 @@ h2 {
     display: flex;
     flex-direction: row;
     max-height: 100%;
+    font-family: "DM Mono"
 }
 
 .intro-text {
@@ -127,6 +127,7 @@ h2 {
     line-height: 2;
     overflow: hidden;
     max-height: 100%;
+    min-width: 80vw;
     padding-top: 1em;
 }
 
@@ -139,30 +140,28 @@ button.accordion {
     padding: 15px 20px;
     cursor: pointer;
     transition: background-color 0.2s linear;
-    font-family: 'HK Grotesk', sans-serif;
     font-weight: 100;
-    font-size: 2em;
+    font-size: 1em;
+    font-family: "DM Mono"
 }
 
 button.accordion:after {
     /* font-family: FontAwesome; */
     content: "\f078";
     font-family: "fontawesome";
-    font-size: 0.5em;
-    font-weight: 200;
+    font-size: 0.5rem;
+    font-weight: 700;
     float: right;
 }
 
 .accordion {
-
     color: rgb(17, 17, 17);
 }
 
 button.accordion.is-open {
     padding-left: 2rem;
-    font-family: 'HK Grotesk', sans-serif;
     letter-spacing: 0.1em;
-    font-weight: 600;
+    font-weight: 800;
 }
 
 button.accordion.is-open:after {
@@ -179,13 +178,12 @@ button.accordion:hover {
     background-color: eeeeee;
     border-left: 1px solid eeeeee;
     border-right: 1px solid eeeeee;
-    padding: 0 20px;
+    padding: 0 2rem;
     max-height: 0;
     overflow-y: scroll;
     overflow-x: hidden;
     transition: max-height 0.3s ease-in-out;
     transition-delay: 0.1s;
-    font-family: 'Hanken Grotesk', sans-serif;
     font-size: 1rem;
     line-height: 2;
 }
